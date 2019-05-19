@@ -1,0 +1,91 @@
+.lab {
+	background-color: #f2f7f6;
+	border-radius: 6px;
+	padding: 1.2em;
+	margin-bottom: 2em;
+}
+ul {
+	list-style: none;
+}
+.main {
+	width: 70%;
+	margin: 0 auto;
+	/*background-color: #1987CB;*/
+}
+
+.lab a {
+	margin: 0!important;
+	display: block;
+	color: #37a;
+	text-decoration: none;
+	/*margin-bottom: 1em!important;*/
+}
+
+.lab:nth-child(2) a {
+	margin-bottom: 1em!important;
+}
+
+.lab h4 {
+	color: #072;
+	margin-bottom: 1em!important;
+}
+
+.right_content {
+	width: 25%;
+	float: right;
+	padding-right: 10%;
+	margin-top: 10px;
+}
+
+.right_content .title {
+	border-bottom: 0.3px solid rgba(0, 0, 0, 0.3);
+	padding-bottom: 1em;
+	font-size: 1.5em;
+}
+
+.right_content .option ul {
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+.right_content .option li {
+	display: inline-block;
+	font-size: 1em;
+	width: 12.6%;
+}
+
+.right_content .option {
+	border-bottom: 3px solid #eaeaea;
+}
+
+.right_content .op_content li {
+	color: #37a;
+	border-bottom: 0.3px solid rgba(0, 0, 0, 0.3);
+	line-height: 3em;
+	font-size: 0.9em;
+}
+
+.right_content .week,
+.last_op {
+	margin-bottom: 2.5em;
+}
+
+.right_content .op_content label {
+	color: orange;
+	float: right;
+}
+
+.pro_lab span {
+	color: #37a;
+	background-color: #e8e8e8;
+	float: left;
+	padding: 2px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.pro_lab_content h5+div {
+	height: 12em;
+	padding-bottom: 1em;
+	border-bottom: 1px dashed #eaeaea;
+}
